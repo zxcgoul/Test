@@ -17,9 +17,6 @@ class main {
         } else if (operation == '-') {
             float d = a - b;
             System.out.println("Ответ " + d);
-        } else if (operation == '+') {
-            float e = a + b;
-            System.out.println("Ответ " + e);
         } else System.out.println("Неверная операция");
     }
 }
